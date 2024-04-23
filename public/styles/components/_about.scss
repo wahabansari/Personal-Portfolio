@@ -1,0 +1,57 @@
+.about-section {
+    padding-block: 5rem;
+
+    .title {
+        @include rfs(3rem, font-size);
+        font-weight: 700;
+    }
+
+    .role {
+        @include rfs(1.2rem, font-size);
+        font-weight: 500;
+    }
+
+    p {
+        @include rfs(1.1rem, font-size);
+    }
+
+    ul {
+        li {
+            padding-left: 0;
+
+            strong {
+                line-height: 2;
+            }
+        }
+    }
+
+    .card {
+        text-align      : center;
+        border          : 1px solid $gray-200;
+        background-color: $gray-100;
+        transition      : .3s all ease-in-out;
+        cursor          : pointer;
+
+        .card-body {
+            padding-block: 3rem;
+
+            h3 {
+                @include rfs(3rem);
+                font-weight: 800;
+            }
+
+            p {
+                margin-bottom : 0;
+                text-transform: uppercase;
+                font-weight   : 500;
+            }
+        }
+
+        &:hover {
+            transform       : translateY(-5px);
+            box-shadow      : $box-shadow-sm;
+            background-color: $white;
+        }
+    }
+
+}

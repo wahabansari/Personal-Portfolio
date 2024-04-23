@@ -1,0 +1,15 @@
+.experience-section {
+    padding-block   : 5rem;
+    background-color: #f3f9ff;
+
+    .title {
+        @include rfs(2.4rem, font-size);
+        font-weight: 700;
+    }
+
+    .card {
+        box-shadow: 30px 40px 80px #e4edf5;
+        border: none;
+        // padding-block: 3rem;
+    }
+}

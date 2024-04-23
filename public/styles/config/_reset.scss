@@ -1,0 +1,53 @@
+body {
+    font-family: $font-sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-base;
+}
+
+.bg-theme {
+    background-color: $primary;
+}
+
+.padding-custom {
+    padding-block : 8rem 5rem;
+    padding-inline: 3rem;
+}
+
+.text-yellow {
+    color: $primary-yellow;
+}
+
+button {
+    outline      : none;
+    padding      : .8rem 1.5rem;
+    display      : inline-block;
+    min-width    : 170px;
+    border-radius: 0.3rem;
+    color        : $white;
+    transition   : $btn-transition;
+}
+
+.btn-idea {
+    background-color: $primary-dark;
+
+    &:hover {
+        background-color: transparent;
+        color           : $primary-dark;
+    }
+}
+
+.btn-contact {
+    background-color: transparent;
+    color           : $primary-dark;
+
+    &:hover {
+        background-color: rgba($primary-dark, 10%);
+    }
+}

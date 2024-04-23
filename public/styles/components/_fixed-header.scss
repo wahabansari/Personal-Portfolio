@@ -1,0 +1,62 @@
+.fixed-header__wrapper {
+    min-width  : 380px;
+    font-family: $font-base;
+
+    .logo {
+        color: $primary-dark;
+
+        .fs-large {
+            @include rfs(3.5rem, font-size);
+        }
+
+        .text-overlay {
+            @include rfs(1.525rem, font-size);
+        }
+    }
+
+    .menu__lists {
+        ul>li {
+            a {
+                display: inline-block;
+                @include rfs(1.2rem, font-size);
+                color: $primary-dark;
+
+                &::after {
+                    content   : '';
+                    width     : 0px;
+                    height    : 1px;
+                    display   : block;
+                    background: $primary-dark;
+                    transition: 300ms;
+                }
+
+            }
+
+            &:hover {
+                a::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+.h-fill {
+    min-height: 100dvh;
+}
+
+.text-narrow {
+    letter-spacing: -0.5px;
+}
+
+.text-italic {
+    font-family: $font-serif;
+    font-style : italic;
+    font-weight: 800;
+    color      : rgba(19, 15, 73, 0.1);
+}
+
+.btn-round {
+    border-radius: 3rem;
+}
