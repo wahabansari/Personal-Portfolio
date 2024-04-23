@@ -1,0 +1,42 @@
+.project-section {
+    padding-block   : 5rem;
+    background-color: rgba($primary-dark, 0.02);
+
+    .project-placeholder {
+        .title{
+            
+        }
+
+        figure {
+            overflow     : hidden;
+            position     : relative;
+            z-index      : 1;
+            border-radius: $border-radius;
+
+            img {
+                transition   : .3s all ease-in-out;
+                border-radius: $border-radius;
+                overflow     : hidden;
+            }
+
+            &:before {
+                content         : " ";
+                position        : absolute;
+                inset           : 0;
+                background-color: rgba($primary-dark, 0.2);
+                overflow        : hidden;
+                z-index         : 2;
+
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+
+        }
+
+    }
+
+}

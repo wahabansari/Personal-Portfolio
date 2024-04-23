@@ -1,11 +1,14 @@
 // Overrides Bootstrap Variables
-$font-family-sans-serif:"DM Sans",
-sans-serif;
+// $font-family-sans-serif:"DM Sans",
+// sans-serif;
 $font-base: "DM Sans",
 sans-serif;
-$font-inter: "Inter",
+
+$font-inter: "Inter var",
 sans-serif;
-$font-sans:$font-base;
+
+$font-sans:$font-inter;
+
 $font-serif: "Playfair Display",
 serif;
 

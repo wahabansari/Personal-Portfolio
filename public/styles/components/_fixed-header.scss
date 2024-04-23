@@ -1,6 +1,7 @@
 .fixed-header__wrapper {
-    min-width  : 380px;
-    font-family: $font-base;
+    min-width    : 380px;
+    font-family  : $font-base;
+    border-right: 1px solid $gray-200;
 
     .logo {
         color: $primary-dark;

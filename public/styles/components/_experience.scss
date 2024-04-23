@@ -1,6 +1,6 @@
 .experience-section {
     padding-block   : 5rem;
-    background-color: #f3f9ff;
+    background-color: rgba($primary-dark, 0.02);
 
     .title {
         @include rfs(2.4rem, font-size);
@@ -8,8 +8,17 @@
     }
 
     .card {
-        box-shadow: 30px 40px 80px #e4edf5;
-        border: none;
-        // padding-block: 3rem;
+        box-shadow   : $box-shadow-sm;
+        border       : none;
+        transition   : .3s all;
+        border-radius: 0;
+
+        .card-body {
+            padding: 3rem;
+        }
+
+        &:hover {
+            transform: translateY(-5px);
+        }
     }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="container">
         <div className="row">
           <div className="col-xl-5">
@@ -54,26 +54,26 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div className="row my-5">
+        <div className="row mt-5">
           <div className="col-xl-4">
-            <div class="card">
-              <div class="card-body">
+            <div className="card shadow-sm">
+              <div className="card-body">
                 <h3>3+</h3>
                 <p>Years Of Experience</p>
               </div>
             </div>
           </div>
           <div className="col-xl-4">
-            <div class="card">
-              <div class="card-body">
+            <div className="card shadow-sm">
+              <div className="card-body">
                 <h3>50</h3>
                 <p>Projecs Completed</p>
               </div>
             </div>
           </div>
           <div className="col-xl-4">
-            <div class="card">
-              <div class="card-body">
+            <div className="card shadow-sm">
+              <div className="card-body">
                 <h3>30+</h3>
                 <p>Happy Clients</p>
               </div>

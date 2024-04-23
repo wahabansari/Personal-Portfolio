@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-theme">
+    <div className="bg-theme" id="home">
       <div className="container">
         <div className="row">
           <div className="col">
@@ -23,21 +23,21 @@ const Hero = () => {
                 <button className="btn-idea">Have an Idea</button>
                 <button className="btn-contact">Let's talk</button>
               </div>
-              <div class="info mt-5">
+              <div className="info mt-5">
                 <ul className="list-unstyled mb-0 info-lists">
                   <li>
-                    <i class="bi bi-telephone-fill me-2"></i>
+                    <i className="bi bi-telephone-fill me-2"></i>
                     <a href="tel:+923191664641">+92 3191664641</a>
                   </li>
                   <li>
-                    <i class="bi bi-envelope-fill me-2"></i>
+                    <i className="bi bi-envelope-fill me-2"></i>
                     <a href="mailto:wahab0421690@gmail.com">
                       wahab0421690@gmail.com
                     </a>
                   </li>
                   <li>
-                    <i class="bi bi-geo-alt-fill me-2"></i>
-                    <a class="href_location" href="#">
+                    <i className="bi bi-geo-alt-fill me-2"></i>
+                    <a className="href_location" href="#">
                       Lahore, Pakistan
                     </a>
                   </li>

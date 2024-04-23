@@ -1,5 +1,8 @@
 body {
-    font-family: $font-sans;
+    font-family            : $font-sans;
+    font-feature-settings  : "cv11", "ss01";
+    font-variation-settings: "opsz"32;
+    color                  : $primary-dark;
 }
 
 h1,
@@ -32,6 +35,7 @@ button {
     border-radius: 0.3rem;
     color        : $white;
     transition   : $btn-transition;
+    border-radius: 0;
 }
 
 .btn-idea {
