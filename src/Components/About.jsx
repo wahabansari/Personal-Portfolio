@@ -26,32 +26,6 @@ const About = () => {
               make your project a success. I enjoy every step of the design
               process, from discussion and collaboration.
             </p>
-            <ul className="list-inline mt-4">
-              <li className="list-inline-item pe-5">
-                <span className="d-block text-muted text-uppercase">Age</span>
-                <strong>25</strong>
-              </li>
-              <li className="list-inline-item pe-5">
-                <span className="d-block text-muted text-uppercase">
-                  Born In
-                </span>
-                <strong>
-                  <a href="#">Lahore, PK</a>
-                </strong>
-              </li>
-              <li className="list-inline-item pe-5">
-                <span className="d-block text-muted text-uppercase">Mail</span>
-                <strong>
-                  <a href="mailto:support@elisc.com">wahab0421690@gmail.com</a>
-                </strong>
-              </li>
-              <li className="list-inline-item">
-                <span className="d-block text-muted text-uppercase">Phone</span>
-                <strong>
-                  <a href="tel:+92 3191664641">+92 3191664641</a>
-                </strong>
-              </li>
-            </ul>
           </div>
         </div>
         <div className="row mt-5">
