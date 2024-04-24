@@ -22,10 +22,15 @@ const Experience = () => {
                   </span>
                   <span className="text-dark fw-semibold">Sunhub</span>
                 </div>
-                <div className="fw-bold h5 my-3">Frontend Developer | React</div>
+                <div className="fw-bold h5 my-3">
+                  Frontend Developer | React
+                </div>
                 <p>
-                  Website development is the process of building, programming,
-                  coding and maintaining websites and web applications.
+                  I consistently uphold high standards in UI design, ensuring
+                  usability and consistency across platforms. Leveraging HTML,
+                  CSS3, JavaScript, and frameworks like Bootstrap and Material
+                  UI, I focus on creating reusable code and optimizing for
+                  scalability and speed.
                 </p>
               </div>
             </div>
@@ -41,8 +46,10 @@ const Experience = () => {
                 </div>
                 <div className="fw-bold h5 my-3">User Interface Designer</div>
                 <p>
-                  Website development is the process of building, programming,
-                  coding and maintaining websites and web applications.
+                  As a UI designer, I prioritize creating intuitive and visually
+                  appealing interfaces. I address design challenges with a keen
+                  eye for detail, ensuring browser compatibility and enhancing
+                  user experience across different resolutions and devices.
                 </p>
               </div>
             </div>

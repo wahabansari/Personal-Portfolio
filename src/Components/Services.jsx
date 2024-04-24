@@ -27,8 +27,11 @@ const Services = () => {
 
                 <h5 className="card-title fw-bolder mb-3">UI UX Design</h5>
                 <p>
-                  Website development is the process of building, programming,
-                  coding and maintaining websites and web applications.
+                  I specialize in crafting intuitive and engaging user
+                  experiences. With a focus on user-centric design, I create
+                  interfaces that are both functional and visually compelling.
+                  Leveraging industry best practices, I transform ideas into
+                  impactful digital solutions.
                 </p>
               </div>
             </div>
@@ -42,8 +45,11 @@ const Services = () => {
 
                 <h5 className="card-title fw-bolder mb-3">Web Development</h5>
                 <p>
-                  Website development is the process of building, programming,
-                  coding and maintaining websites and web applications.
+                  I excel in developing robust and responsive web applications
+                  tailored to client needs. Using HTML, CSS, JavaScript, and
+                  modern frameworks, I build efficient and scalable solutions.
+                  Committed to quality and innovation, I turn visions into
+                  functional websites.
                 </p>
               </div>
             </div>
@@ -58,8 +64,11 @@ const Services = () => {
                   Wordpress Development
                 </h5>
                 <p>
-                  Website development is the process of building, programming,
-                  coding and maintaining websites and web applications.
+                  As a WordPress developer, I specialize in creating customized
+                  and user-friendly websites. Leveraging WordPress CMS and PHP,
+                  I build scalable and efficient solutions. Dedicated to quality
+                  and client satisfaction, I bring ideas to life with seamless
+                  WordPress integration.
                 </p>
               </div>
             </div>
