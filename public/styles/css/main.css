@@ -11850,7 +11850,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #130f49;
 }
 
@@ -11865,7 +11865,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .bg-theme {
@@ -11927,7 +11927,7 @@ button {
 }
 .fixed-header__wrapper {
   width: 350px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   border-right: 1px solid #e9ecef;
   transition: 0.3s all ease-in-out;
 }

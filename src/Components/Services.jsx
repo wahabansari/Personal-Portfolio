@@ -25,7 +25,7 @@ const Services = () => {
                   <DesigningIcon />
                 </div>
 
-                <h5 className="card-title fw-bolder mb-3">UI UX Design</h5>
+                <h5 className="card-title fw-semibold mb-3">UI UX Design</h5>
                 <p>
                   I specialize in crafting intuitive and engaging user
                   experiences. With a focus on user-centric design, I create
@@ -43,7 +43,7 @@ const Services = () => {
                   <DevelopmentIcon />
                 </div>
 
-                <h5 className="card-title fw-bolder mb-3">Web Development</h5>
+                <h5 className="card-title fw-semibold mb-3">Web Development</h5>
                 <p>
                   I excel in developing robust and responsive web applications
                   tailored to client needs. Using HTML, CSS, JavaScript, and
@@ -60,7 +60,7 @@ const Services = () => {
                 <div className="icon">
                   <WordPressIcon />
                 </div>
-                <h5 className="card-title fw-bolder mb-3">
+                <h5 className="card-title fw-semibold mb-3">
                   Wordpress Development
                 </h5>
                 <p>

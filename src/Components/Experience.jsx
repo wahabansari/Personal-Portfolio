@@ -22,7 +22,7 @@ const Experience = () => {
                   </span>
                   <span className="text-dark fw-semibold">Sunhub</span>
                 </div>
-                <div className="fw-bold h5 my-3">
+                <div className="fw-semibold h5 my-3">
                   Frontend Developer | React
                 </div>
                 <p>
@@ -44,7 +44,7 @@ const Experience = () => {
                     Elite High School
                   </span>
                 </div>
-                <div className="fw-bold h5 my-3">User Interface Designer</div>
+                <div className="fw-semibold h5 my-3">User Interface Designer</div>
                 <p>
                   As a UI designer, I prioritize creating intuitive and visually
                   appealing interfaces. I address design challenges with a keen
