@@ -1,6 +1,7 @@
 .layout-wrapper {
     &__content {
-        padding-left: 380px;
+        padding-left: $sidebar-width;
+        transition  : padding-left 0.3s;
 
         .text-highlighted {
             color: #a5a6ff;

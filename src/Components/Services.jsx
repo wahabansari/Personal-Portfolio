@@ -18,8 +18,8 @@ const Services = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-xl-4">
-            <div className="card">
+          <div className="col-lg-4 mb-lg-0 mb-3">
+            <div className="card h-100">
               <div className="card-body">
                 <div className="icon">
                   <DesigningIcon />
@@ -33,8 +33,8 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-4">
-            <div className="card">
+          <div className="col-lg-4 mb-lg-0 mb-3">
+            <div className="card h-100">
               <div className="card-body">
                 <div className="icon">
                   <DevelopmentIcon />
@@ -48,8 +48,8 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-4">
-            <div className="card">
+          <div className="col-lg-4 mb-lg-0 mb-3">
+            <div className="card h-100">
               <div className="card-body">
                 <div className="icon">
                   <WordPressIcon />

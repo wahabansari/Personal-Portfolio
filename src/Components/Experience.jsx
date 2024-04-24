@@ -13,7 +13,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-xl-6">
+          <div className="col-lg-6 mb-3 mb-lg-0">
             <div className="card">
               <div className="card-body">
                 <div className="hstack justify-content-between">
@@ -30,7 +30,7 @@ const Experience = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-6">
+          <div className="col-lg-6 mb-3 mb-lg-0">
             <div className="card">
               <div className="card-body">
                 <div className="hstack justify-content-between">

@@ -1,13 +1,12 @@
 // Overrides Bootstrap Variables
 // $font-family-sans-serif:"DM Sans",
 // sans-serif;
-$font-base: "DM Sans",
+$font-base: "DM Sans", sans-serif;
+
+$font-inter: "Inter",
 sans-serif;
 
-$font-inter: "Inter var",
-sans-serif;
-
-$font-sans:$font-inter;
+$font-sans:$font-base;
 
 $font-serif: "Playfair Display",
 serif;
@@ -15,4 +14,4 @@ serif;
 $primary       :#effbf8;
 $primary-dark  :#130f49;
 $primary-yellow:#ff972d;
-
+$sidebar-width :350px;

@@ -23,8 +23,6 @@ const Projects = () => {
                 />
               </figure>
             </div>
-            <div className="project-cat text-muted fs-6">Web Design</div>
-            <h3 className="title fw-semibold">Instavest</h3>
           </div>
           <div className="col-xl-6 mb-4">
             <div className="project-placeholder">
@@ -36,8 +34,6 @@ const Projects = () => {
                 />
               </figure>
             </div>
-            <div className="project-cat text-muted fs-6">Web Design</div>
-            <h3 className="title fw-semibold">Artesian Software Consultancy</h3>
           </div>
           <div className="col-xl-6 mb-4">
             <div className="project-placeholder">
@@ -49,8 +45,6 @@ const Projects = () => {
                 />
               </figure>
             </div>
-            <div className="project-cat text-muted fs-6">Web Design</div>
-            <h3 className="title fw-semibold">Testy Pages</h3>
           </div>
           <div className="col-xl-6 mb-4">
             <div className="project-placeholder">
@@ -62,8 +56,6 @@ const Projects = () => {
                 />
               </figure>
             </div>
-            <div className="project-cat text-muted fs-6">Web Design</div>
-            <h3 className="title fw-semibold">Superio</h3>
           </div>
         </div>
       </div>

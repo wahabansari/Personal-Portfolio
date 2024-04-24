@@ -11850,9 +11850,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  font-family: "Inter var", sans-serif;
-  font-feature-settings: "cv11", "ss01";
-  font-variation-settings: "opsz" 32;
+  font-family: "DM Sans", sans-serif;
   color: #130f49;
 }
 
@@ -11887,11 +11885,14 @@ button {
   outline: none;
   padding: 0.8rem 1.5rem;
   display: inline-block;
-  min-width: 170px;
   border-radius: 0.3rem;
   color: #fff;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   border-radius: 0;
+}
+
+.btn-minwidth {
+  min-width: 170px;
 }
 
 .btn-idea {
@@ -11910,10 +11911,25 @@ button {
   background-color: rgba(19, 15, 73, 0.1);
 }
 
+@media (max-width: 1199.98px) {
+  .fixed-header__wrapper {
+    display: none;
+  }
+  .layout-wrapper__content {
+    padding-left: 0 !important;
+  }
+  .padding-custom {
+    padding: 0 !important;
+  }
+  .intro-description {
+    width: 100% !important;
+  }
+}
 .fixed-header__wrapper {
-  min-width: 380px;
+  width: 350px;
   font-family: "DM Sans", sans-serif;
   border-right: 1px solid #e9ecef;
+  transition: 0.3s all ease-in-out;
 }
 .fixed-header__wrapper .logo {
   color: #130f49;
@@ -11971,7 +11987,8 @@ button {
 }
 
 .layout-wrapper__content {
-  padding-left: 380px;
+  padding-left: 350px;
+  transition: padding-left 0.3s;
 }
 .layout-wrapper__content .text-highlighted {
   color: #a5a6ff;
@@ -12146,7 +12163,7 @@ button {
 }
 .services-section .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   background-color: #fff;
   color: #fff;
 }

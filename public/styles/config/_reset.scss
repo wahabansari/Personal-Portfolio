@@ -1,8 +1,6 @@
 body {
-    font-family            : $font-sans;
-    font-feature-settings  : "cv11", "ss01";
-    font-variation-settings: "opsz"32;
-    color                  : $primary-dark;
+    font-family: $font-sans;
+    color      : $primary-dark;
 }
 
 h1,
@@ -28,14 +26,18 @@ h6 {
 }
 
 button {
-    outline      : none;
-    padding      : .8rem 1.5rem;
-    display      : inline-block;
-    min-width    : 170px;
+    outline: none;
+    padding: .8rem 1.5rem;
+    display: inline-block;
+
     border-radius: 0.3rem;
     color        : $white;
     transition   : $btn-transition;
     border-radius: 0;
+}
+
+.btn-minwidth {
+    min-width: 170px;
 }
 
 .btn-idea {

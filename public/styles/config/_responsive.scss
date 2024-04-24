@@ -1,0 +1,20 @@
+@include media-breakpoint-down(xl) {
+    $sidebar-width: 0;
+
+    .fixed-header__wrapper {
+        display: none;
+    }
+
+    .layout-wrapper__content {
+        padding-left: $sidebar-width !important;
+    }
+
+    .padding-custom {
+        padding: 0 !important;
+    }
+
+    .intro-description {
+        width: 100% !important;
+    }
+
+}
